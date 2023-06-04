@@ -39,7 +39,7 @@ public class TTTServer {
 
     while (true) {
       try {
-        Socket clientSocket = TCPserverSocket.accept();
+        Socket clientSocket = TCPserverSocket.accept(); 
         exec.execute(() -> {
           try {
             while (true) {
